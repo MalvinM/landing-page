@@ -8,7 +8,7 @@ body {
 
 .top-header {
   display: flex;
-  border-style: solid;
+
   background: #1f2937;
   color: white;
   justify-content: space-between;
@@ -36,10 +36,7 @@ body {
 
 .header-left {
   display: flex;
-
-  border-style: solid;
-  color: white;
-
+  color: #f9faf8;
   flex-direction: column;
   width: 360px;
   height: auto;
@@ -64,7 +61,6 @@ body {
   font-weight: 900;
   color: #f9faf8;
   width: 210px;
-  border-style: solid;
 }
 
 /* Placeholder image */
@@ -76,12 +72,6 @@ body {
   padding: 25px;
 }
 
-/* Image container and border */
-
-.header-right {
-  border-style: solid;
-}
-
 /* Both the header.left and header.right */
 
 .main-header {
@@ -89,12 +79,6 @@ body {
   align-items: center;
   justify-content: center;
   background: #1f2937;
-}
-
-/* information title container */
-
-.information-title {
-  border-style: solid;
 }
 
 /* "Some random information" */
@@ -138,7 +122,6 @@ body {
 
 .quote {
   display: flex;
-  border-style: solid;
 }
 
 /*Quote */
