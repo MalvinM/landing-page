@@ -1,0 +1,61 @@
+/* Using borders and color to help with flexbox */
+
+body {
+  margin: 0px;
+}
+
+/* Header Logo and header links */
+
+.top-header {
+  display: flex;
+  border-style: solid;
+  background: #1f2937;
+  color: orange;
+  justify-content: space-between;
+}
+
+/* Header Logo */
+
+.top-header p {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+/* Header links */
+
+.top-header ul {
+  display: flex;
+  font-size: 18px;
+  color: #e5e7eb;
+  list-style-type: none;
+  gap: 18px;
+  align-items: center;
+}
+
+/* "This website is awesome" and subtext*/
+
+.header-left {
+  display: flex;
+  border-style: solid;
+  color: orange;
+  flex-direction: column;
+  width: 360px;
+  height: auto;
+}
+
+/* Sign up button */
+
+.header-left button {
+  display: flex;
+  border-style: solid;
+  color: green;
+  width: 70px;
+  justify-content: center;
+}
+
+/* H1 Text - "This website is awesome" */
+
+.header-left h1 {
+  width: 210px;
+  border-style: solid;
+}
