@@ -10,7 +10,7 @@ body {
   display: flex;
   border-style: solid;
   background: #1f2937;
-  color: orange;
+  color: white;
   justify-content: space-between;
 }
 
@@ -36,19 +36,23 @@ body {
 
 .header-left {
   display: flex;
+
   border-style: solid;
-  color: orange;
+  color: white;
+
   flex-direction: column;
   width: 360px;
   height: auto;
+  padding: 40px;
 }
 
 /* Sign up button */
 
 .header-left button {
   display: flex;
-  border-style: solid;
+  /* border-style: solid; */
   color: white;
+  background: #3882f6;
   width: 70px;
   justify-content: center;
 }
@@ -56,6 +60,9 @@ body {
 /* H1 Text - "This website is awesome" */
 
 .header-left h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
   width: 210px;
   border-style: solid;
 }
@@ -84,29 +91,61 @@ body {
   background: #1f2937;
 }
 
+/* information title container */
+
 .information-title {
   border-style: solid;
 }
+
+/* "Some random information" */
 
 .information-title h2 {
   display: flex;
   justify-content: center;
 }
 
+/* box + subtext */
+
 .sections {
   display: flex;
-  gap: 20px;
+  gap: 40px;
   justify-content: center;
   padding: 20px;
 }
 
-.box,
+/* Round boxes */
+
+.box-1,
 .box-2,
 .box-3,
 .box-4 {
   display: flex;
   border-style: solid;
+  color: #3882f6;
   border-radius: 15px;
-  width: 100px;
-  height: 100px;
+  width: 140px;
+  height: 140px;
+}
+
+/* subtext under boxes */
+
+.info p {
+  width: 140px;
+  text-align: center;
+}
+
+/* quote container */
+
+.quote {
+  display: flex;
+  border-style: solid;
+}
+
+/*Quotw */
+
+.quote p {
+  font-size: 36px;
+  color: #1f2937;
+  background: #e5e7eb;
+  padding: 180px;
 }
