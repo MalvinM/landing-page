@@ -59,3 +59,22 @@ body {
   width: 210px;
   border-style: solid;
 }
+
+.header-right img {
+  display: flex;
+  width: 260px;
+  height: auto;
+  padding: 25px;
+}
+
+.header-right {
+  border-style: solid;
+}
+
+/* Both the header.left and header.right */
+
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
