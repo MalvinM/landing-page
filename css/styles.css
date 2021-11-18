@@ -48,7 +48,7 @@ body {
 .header-left button {
   display: flex;
   border-style: solid;
-  color: green;
+  color: white;
   width: 70px;
   justify-content: center;
 }
@@ -60,12 +60,16 @@ body {
   border-style: solid;
 }
 
+/* Placeholder image */
+
 .header-right img {
   display: flex;
   width: 260px;
   height: auto;
   padding: 25px;
 }
+
+/* Image container and border */
 
 .header-right {
   border-style: solid;
@@ -77,4 +81,32 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  background: #1f2937;
+}
+
+.information-title {
+  border-style: solid;
+}
+
+.information-title h2 {
+  display: flex;
+  justify-content: center;
+}
+
+.sections {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.box,
+.box-2,
+.box-3,
+.box-4 {
+  display: flex;
+  border-style: solid;
+  border-radius: 15px;
+  width: 100px;
+  height: 100px;
 }
