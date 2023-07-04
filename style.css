@@ -1,3 +1,7 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 body {
   height: 100vh;
   margin: 0;
@@ -11,6 +15,7 @@ a {
 .wrapper {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 .header-image {
@@ -129,4 +134,50 @@ a {
   width: 700px;
   font-size: 18px;
   font-weight: 800;
+}
+
+.cta-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 270px;
+}
+
+.cta-card {
+  display: flex;
+  justify-content: space-between;
+  background-color: #3882f6;
+  border-radius: 12px;
+  padding: 48px 72px;
+  font-size: 24px;
+  width: 800px;
+}
+
+.cta-title {
+  font-size: 24px;
+  font-weight: 800;
+  color: #f9faf8;
+}
+
+.cta-text {
+  font-size: 18px;
+  color: #efe7eb;
+}
+
+.cta-button {
+  background-color: #3882f6;
+  border-style: solid;
+  border: 2px white solid;
+  color: #f9faf8;
+  width: 120px;
+  border-radius: 6px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  color: #e5e7eb;
+  height: 100px;
 }
