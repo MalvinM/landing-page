@@ -78,3 +78,32 @@ a {
   display: flex;
   gap: 24px;
 }
+
+.information-img {
+  width: 165px;
+  height: 165px;
+  border-radius: 25px;
+}
+
+.information-container {
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.information-header {
+  font-size: 36px;
+  font-weight: 800;
+  padding: 36px;
+  color: #1f2937;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  padding: 60px 0;
+}
+
+.card {
+  width: 200px;
+}
